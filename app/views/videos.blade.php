@@ -19,6 +19,21 @@
 		<div class = "col-md-3 col-xs-12 mb15">
 			<div class = "embed-responsive embed-responsive-16by9">
 	
+				<video controls class="embed-responsive-item">
+				  	
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.webm') }}" type="video/webm">
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.ogg') }}" type="video/ogg">
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.mp4') }}" type="video/mp4">
+					
+					Votre navigateur ne peut afficher cette vidéo.
+
+				</video> 
+			</div>
+		</div>
+
+		<div class = "col-md-3 col-xs-12 mb15">
+			<div class = "embed-responsive embed-responsive-16by9">
+	
 				<video  controls class="embed-responsive-item">
 					  	
 					  	<source src="{{ URL::asset('videos/DECEMBRE.webm') }}" type="video/webm">
@@ -64,6 +79,14 @@
 			</div>
 		</div>
 
+		
+
+		
+	</div>
+
+
+	<div class = 'row'>
+
 		<div class = "col-md-3 col-xs-12 mb15">
 		
 			 <div class = "embed-responsive embed-responsive-16by9">
@@ -79,12 +102,6 @@
 				</video> 
 			</div>
 		</div>
-
-		
-	</div>
-
-
-	<div class = 'row'>
 
 
 		<div class = "col-md-3 col-xs-12 mb15">
@@ -135,20 +152,27 @@
 			</div>
 		</div>
 		
+		
+		
+	
+	</div>
+
+
+	<div class = 'row'>
+
 		<div class = "col-md-3 col-xs-12 mb15">
 	
 			<div class="videowrapper">
             	<iframe class = "img_shadow" height="300" width="500" src="http://www.youtube.be/embed/6NAtYa1CG5w" frameborder="0" allowfullscreen=""></iframe>
          	</div>
 		</div>
-		
+
 		<div class = 'col-md-3 col-xs-12 mb15'>
 			<div class="videowrapper">
             	<iframe class = "img_shadow" height="300" width="500" src="http://www.youtube.be/embed/Dc-5Gz0_Nuo" frameborder="0" allowfullscreen=""></iframe>
          	</div>
 		</div>
-	
-	
+
 	</div>
 		
 

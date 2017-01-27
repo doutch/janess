@@ -150,7 +150,24 @@
 	</div>
 
 
+
+
 	<div class = 'row'>
+
+		<div class = "col-md-3 col-xs-12 mb15">
+			<div class = "embed-responsive embed-responsive-16by9">
+	
+				<video controls class="embed-responsive-item">
+				  	
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.webm') }}" type="video/webm">
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.ogg') }}" type="video/ogg">
+				  	<source src="{{ URL::asset('videos/VIDEO_TRAITEUR.mp4') }}" type="video/mp4">
+					
+					Votre navigateur ne peut afficher cette vidéo.
+
+				</video> 
+			</div>
+		</div>
 
 		<div class = "col-md-3 col-xs-12 mb15">
 			<div class = "embed-responsive embed-responsive-16by9">
@@ -199,21 +216,6 @@
 				</video> 
 			</div>
 
-		</div>
-
-		<div class = "col-md-3 col-xs-12 mb15">
-			<div class = "embed-responsive embed-responsive-16by9">
-	
-				<video controls class="embed-responsive-item">
-				  	
-				  	<source src="{{ URL::asset('videos/Janess_Salon_Elonga.webm') }}" type="video/webm">
-				  	<source src="{{ URL::asset('videos/Janess_Salon_Elonga.ogg') }}" type="video/ogg">
-				  	<source src="{{ URL::asset('videos/Janess_Salon_Elonga.mp4') }}" type="video/mp4">
-					
-					Votre navigateur ne peut afficher cette vidéo.
-
-				</video> 
-			</div>
 		</div>
 
 	</div>
